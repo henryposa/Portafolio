@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 const NavBar = () => {
-    // 2
     const [nav, setNav] = useState(false)
 
     const links = [
@@ -51,7 +50,6 @@ const NavBar = () => {
                     </li>
                 ))}
             </ul>
-            {/* 1 */}
             {/* FaBar barra, FaTimes cruz */}
             {/* al abrir la pagina está en false, osea mostrando la barra, al hacer click
             cambia a verdadero, osea muestra la cruz, si nav es verdadero muestra la cruz 
@@ -66,13 +64,11 @@ const NavBar = () => {
 
             {/* Si nav es true, muestra home, about, portafolio, experien */}
             {nav && (
-                // 3
                 <ul
                     className="flex flex-col justify-center items-center
                  absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black
                  to-gray-800"
                 >
-                    {/* 4 */}
                     {links.map(({ id, link }) => (
                         <li
                             key={id}
@@ -82,10 +78,8 @@ const NavBar = () => {
                         </li>
                     ))}
                 </ul>
-                //
             )}
         </div>
-        //
     )
 }
 
