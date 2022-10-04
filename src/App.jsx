@@ -3,8 +3,9 @@ import Home from './components/Home'
 import SocialLinks from './components/SocialLinks'
 import About from './components/About'
 import Portafolio from './components/Portafolio'
-// 3 -
 import Experience from './components/Experience'
+// 3
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Home />
       <About />
       <Portafolio />
-      {/* 2 */}
       <Experience />
+      {/* 2 */}
+      <Contact />
       <SocialLinks />
     </div>
   )
