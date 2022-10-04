@@ -1,14 +1,20 @@
 import NavBar from './components/NavBar'
 import Home from './components/Home'
-// 3 -
 import SocialLinks from './components/SocialLinks'
+// 2 -
+import About from './components/About'
+// 7 -
+import Portafolio from './components/Portafolio'
 
 function App() {
   return (
     <div>
       <NavBar />
       <Home />
-      {/* 2 */}
+      {/* 3 -*/}
+      <About />
+      {/* 6 -*/}
+      <Portafolio />
       <SocialLinks />
     </div>
   )
