@@ -1,5 +1,3 @@
-// 5 crear Portafolio.jsx en components
-// 8 
 import bebidas from '../assets/bebidas.png'
 import seguros from '../assets/seguros.png'
 import veterinaria from '../assets/veterinaria.png'
@@ -7,7 +5,6 @@ import veterinaria from '../assets/veterinaria.png'
 import React from 'react'
 
 const Portafolio = () => {
-    // 10
     const portafolios = [
         {
             id: 1,
@@ -23,7 +20,6 @@ const Portafolio = () => {
         },
     ]
     return (
-        // 9
         <div name="portafolio" className='color-nav text-white w-full 
         md:h-screen'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col 

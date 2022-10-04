@@ -1,9 +1,7 @@
-// 1 
 import React from 'react'
 
 const About = () => {
     return (
-        // 4
         <div name="about" className='w-full h-screen color-nav text-white'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col 
             justify-center w-full h-full'>
@@ -25,7 +23,6 @@ const About = () => {
                 <br />
             </div>
         </div>
-        //
     )
 }
 
