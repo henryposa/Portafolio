@@ -1,10 +1,12 @@
 import React from 'react'
 import Luis from '../assets/Luis.png'
 import { HiChevronRight } from 'react-icons/hi'
+// 1 
+import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
-    <div name="home" className="h-screen w-full color-nav">
+    <div name="Inicio" className="h-screen w-full color-nav">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center
       justify-center h-full px-4 md:flex-row text-white"
       >
@@ -17,7 +19,10 @@ const Home = () => {
           </p>
 
           <div>
-            <button className='group text-white w-fit px-6 py-3 my-2 flex
+            <Link
+              to='Portafolio'
+              smooth duration={500}
+              className='group text-white w-fit px-6 py-3 my-2 flex
             items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500
             cursor-pointer'>
               Portafolio
@@ -25,7 +30,7 @@ const Home = () => {
                 <HiChevronRight size={25}
                   className='ml-1' />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>

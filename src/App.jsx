@@ -4,7 +4,6 @@ import SocialLinks from './components/SocialLinks'
 import About from './components/About'
 import Portafolio from './components/Portafolio'
 import Experience from './components/Experience'
-// 3
 import Contact from './components/Contact'
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <About />
       <Portafolio />
       <Experience />
-      {/* 2 */}
       <Contact />
       <SocialLinks />
     </div>
@@ -23,3 +21,4 @@ function App() {
 }
 
 export default App
+

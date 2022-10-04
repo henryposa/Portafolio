@@ -28,7 +28,7 @@ const SocialLinks = () => {
             id: 3,
             child: (
                 <>
-                    Mail <HiOutlineMail size={30} />
+                    Correo <HiOutlineMail size={30} />
                 </>
             ),
             href: 'mailto:luise.posadao@gmail.com',
@@ -37,7 +37,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                    Resume <BsFillPersonLinesFill size={30} />
+                    Curriculum <BsFillPersonLinesFill size={30} />
                 </>
             ),
             href: 'hoja.pdf',

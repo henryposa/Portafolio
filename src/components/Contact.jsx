@@ -1,10 +1,9 @@
-// 1
 import React from "react";
 
 const Contact = () => {
   return (
     <div
-      name="contact"
+      name="Contacto"
       className="w-full h-screen color-nav text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full color-nav">
@@ -51,3 +50,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

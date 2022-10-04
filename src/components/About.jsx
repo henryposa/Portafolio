@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div name="about" className='w-full h-screen color-nav text-white'>
+        <div name="Sobre mí" className='w-full h-screen color-nav text-white'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col 
             justify-center w-full h-full'>
                 <div className='pb-8'>
@@ -18,7 +18,7 @@ const About = () => {
                     como analista de soporte, operador, digitador, y administré 
                     bases de datos de varios departamentos de Colombia con 
                     experiencia de 1 año y de 6 meses como desarrollador web enfocado 
-                    en React Js y me gusta el trabajo en equipo usando la metodología SCRUM 
+                    en React Js y me gusta el trabajo en equipo usando la metodología SCRUM.
                 </p>
                 <br />
             </div>
