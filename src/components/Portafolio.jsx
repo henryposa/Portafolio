@@ -16,13 +16,13 @@ const Portafolio = () => {
             id: 2,
             src: seguros,
             titulo: 'Cotizador de seguros',
-            href: 'https://paginaveterinaria.netlify.app',
+            href: 'https://lambent-nasturtium-0cfb54.netlify.app',
         },
         {
             id: 3,
             src: veterinaria,
             titulo: 'Veterinaria',
-            href: 'https://lambent-nasturtium-0cfb54.netlify.app',
+            href: 'https://paginaveterinaria.netlify.app',
         },
     ]
     return (
