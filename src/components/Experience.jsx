@@ -4,7 +4,7 @@ import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import react from '../assets/react.png'
 import nextjs from '../assets/nextjs.png'
-import tailwind from '../assets/tailwind.png'
+import bootstrap from '../assets/bootstrap.png'
 import github from '../assets/github.png'
 
 const Experience = () => {
@@ -12,43 +12,37 @@ const Experience = () => {
         {
             id: 1,
             src: html,
-            title: "HTML  ( 1 año)",
+            title: "HTML  (6 meses)",
             style: "shadow-orange-500",
         },
         {
             id: 2,
             src: css,
-            title: "CSS ( 1 año)",
+            title: "CSS (6 meses)",
             style: "shadow-blue-500",
         },
         {
             id: 3,
             src: javascript,
-            title: "JavaScript ( 1 año)",
+            title: "JavaScript (6 meses)",
             style: "shadow-yellow-500",
         },
         {
             id: 4,
             src: react,
-            title: "React ( 1 año)",
+            title: "React (6 meses)",
             style: "shadow-blue-600",
         },
         {
             id: 5,
-            src: tailwind,
-            title: "Tailwind ( 1 año)",
+            src: bootstrap,
+            title: "Bootstrap (6 meses)",
             style: "shadow-sky-400",
         },
         {
             id: 6,
-            src: nextjs,
-            title: "Next JS ( 1 año)",
-            style: "shadow-white",
-        },
-        {
-            id: 7,
             src: github,
-            title: "GitHub ( 1 año)",
+            title: "GitHub (6 meses)",
             style: "shadow-gray-400",
         },
     ];

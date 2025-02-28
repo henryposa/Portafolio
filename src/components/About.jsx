@@ -10,15 +10,16 @@ const About = () => {
                 </div>
 
                 <p>
-                    Autónomo y autodidacta. Técnico en sistemas 
-                    con perfil a Desarrollador/ Diseñador Web, 
-                    apasionado por el entorno digital y los proyectos 
-                    que me inspiran a asesorar a las personas desarrollando 
-                    e integrando mi consciencia y capacidades. Me desempeñé 
-                    como analista de soporte, operador, digitador, y administré 
-                    bases de datos de varios departamentos de Colombia con 
-                    experiencia de 1 año y de 6 meses como desarrollador web enfocado 
-                    en React Js y me gusta el trabajo en equipo usando la metodología SCRUM.
+                    Soy una persona apasionada por el entorno digital y los proyectos que me inspiran a asesorar a las personas, desarrollando e integrando mi consciencia y capacidades.
+                    Disfruto el trabajo en equipo y me gusta aplicar la metodología SCRUM para lograr una colaboración eficiente y organizada.
+
+                </p>
+                <br></br>
+                <p>
+                    Cuento con 1 año de experiencia en soporte a infraestructuras de TI, operador, digitador y administré bases de datos de varios departamentos de Colombia, 6 meses como desarrollador web con ReactJS y 1 año y 7 meses como agente bilingüe.
+                    Tengo conocimientos en desarrollo backend con Node.js y Express, incluyendo APIs REST, autenticación con JWT y manejo de bases de datos como MongoDB, MySQL y SQL Server.
+                    También tengo conocimientos básicos en PHP, Python, Java y .NET.
+
                 </p>
                 <br />
             </div>

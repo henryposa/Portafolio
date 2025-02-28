@@ -11,11 +11,9 @@ const Home = () => {
       justify-center h-full px-4 md:flex-row text-white"
       >
         <div className='flex flex-col justify-center h-full'>
-          <h2 className='text-4xl sm:text-7xl mt-20'>Soy desarrollador Web FrontEnd</h2>
+          <h2 className='text-4xl sm:text-7xl mt-20'>Soy Desarrollador Web Trainee | Formación en Software</h2>
           <p className='text-gray-500'>
-            Tengo 1 año de experiencia contruyendo y diseñando paginas Web.
-            Actualmente me gusta trabajar con las tecnologias HTML, CSS,
-            Javascript, Tailwind y Next JS enfocado en React
+          Tengo 6 meses de experiencia contruyendo y diseñando paginas Web. Actualmente me gusta trabajar con las tecnologias HTML, CSS, Javascript y bootstrap enfocado en React.
           </p>
 
           <div>

@@ -1,7 +1,7 @@
 import bebidas from '../assets/bebidas.png'
 import seguros from '../assets/seguros.png'
 import veterinaria from '../assets/veterinaria.png'
-
+import omniquimica from '../assets/omniquimica.png'
 import React from 'react'
 
 const Portafolio = () => {
@@ -23,6 +23,12 @@ const Portafolio = () => {
             src: veterinaria,
             titulo: 'Veterinaria',
             href: 'https://paginaveterinaria.netlify.app',
+        },
+        {
+            id: 4,
+            src: omniquimica,
+            titulo: 'Omniquimica',
+            href: 'https://omniquimica.netlify.app',
         },
     ]
     return (
